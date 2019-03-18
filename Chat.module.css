@@ -1,0 +1,180 @@
+.DeleteBtn {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  border-radius: 10rem;
+  margin: 0;
+}
+.col {
+  margin-top: 20px;
+}
+.ConversationAvatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 10rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.ConversationListAvatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 10rem;
+}
+
+.ConversationName {
+  display: inline-block;
+}
+
+.ConversationListItem a {
+  cursor: pointer;
+  background-color: #f2f4f8;
+}
+
+.ConversationListText {
+  cursor: pointer;
+}
+
+.CurrentConversationContainer {
+  height: 42rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: auto;
+}
+.CurrentConversationNameContainer {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.CurrentConversationInfo {
+  padding: 25px;
+}
+
+.MessageBodySender {
+  background-color: #cfecfe;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: right;
+  box-sizing: 10px;
+}
+
+.MessageBodyRecepient {
+  background-color: #f6f6f6;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: left;
+  box-sizing: 10px;
+}
+
+.MessageInputBox {
+  border-radius: 10rem;
+  position: sticky;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.MessageInputCol {
+  margin: 1;
+  padding: 1;
+  height: auto;
+}
+
+.MessagesListContainer {
+  height: 40rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: auto;
+}
+
+.MessageSendBtnCol {
+  margin: 0;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
+.MessageTitleSender {
+  text-align: right;
+  padding: 5px;
+  border-radius: 4px;
+  box-sizing: 10px;
+}
+
+.MessageTitleRecepient {
+  padding: 5px;
+  border-radius: 4px;
+  box-sizing: 10px;
+}
+
+.SearchAvatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 10rem;
+  align-content: flex-end;
+}
+
+.SearchBtn {
+  border-radius: 10rem;
+  padding: 8px;
+  margin: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.SearchInput {
+  border-radius: 10rem;
+  margin: 8px;
+}
+
+.SearchResultsContainer {
+  height: 30rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.SelectUserBtn {
+  border-radius: 10rem;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.SignalRChatContainer {
+  height: 40rem;
+}
+
+.slimScrollBar {
+  background: rgb(220, 220, 220);
+  width: 5px;
+  position: absolute;
+  top: 0px;
+  opacity: 0.4;
+  display: none;
+  border-radius: 7px;
+  z-index: 99;
+  right: 1px;
+  height: 395.215px;
+}
+
+.slimScrollDiv {
+  position: relative;
+  overflow: visible hidden;
+  width: auto;
+  height: 100%;
+}
+
+.slimScrollRail {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  display: none;
+  border-radius: 7px;
+  background: rgb(51, 51, 51);
+  opacity: 0.2;
+  z-index: 90;
+  right: 1px;
+}
+
+.chatModalHeight {
+  max-height: 80% !important;
+}
